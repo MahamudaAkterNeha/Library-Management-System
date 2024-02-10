@@ -1,0 +1,34 @@
+USE mylibrary;
+CREATE TABLE users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(50),
+    lastname VARCHAR(50),
+    username VARCHAR(50),
+    email VARCHAR(50),
+    password VARCHAR(50),
+    phonenumber VARCHAR(50)
+);
+
+CREATE TABLE admin(
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    username VARCHAR(50),
+    email VARCHAR(50),
+    password VARCHAR(50),
+    phonenumber VARCHAR(50)
+);
+
+CREATE TABLE book(
+    id INT PRIMARY KEY,
+    title VARCHAR(50),
+    author VARCHAR(50),
+    genre VARCHAR(50),
+    phonenumber VARCHAR(50)
+);
+
+CREATE TABLE report(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    returndate date,
+    delayfine int
+);

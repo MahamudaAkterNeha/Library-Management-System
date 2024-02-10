@@ -1,0 +1,219 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY ---------------------- CODE*/
+
+/*index.html*/
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    background-color: purple;
+}
+
+section{
+    height: 77%;
+    width: 100%;
+}
+
+footer{
+    height: 8%;
+    width: 100%;
+    background-color: purple; 
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+.logo p{
+    margin-left: 20px;
+    margin-top: 38px;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav{
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 70px;
+}
+
+section .mainbg{
+    height: 550px;
+    background-image: url("images/mainbg.jpg");
+}
+
+.box{
+    height: 385px;
+    width: 450px;
+    background-color:rgb(210 169 210);
+    margin: 23px auto;
+    opacity: .9;
+}
+
+/*user.html*/
+
+section .userbg{
+    height: 610px;
+    background-image: url("images/userbg.jpg");
+}
+
+.userbg .box{
+    height: 420px;
+    width: 450px;
+    background-color:rgb(210 169 210);
+    margin: 30px auto;
+    opacity: .9;
+}
+
+form .login{
+    margin: auto 70px;
+}
+
+input{
+    height: 25px;
+    width: 300px;
+}
+
+/*registration.html*/
+
+section .registration{
+    height: 610px;
+    background-image: url("images/registration.jpg");
+}
+
+.registration .box{
+    height: 520px;
+    width: 450px;
+    background-color:rgb(210 169 210);
+    margin: 0px auto;
+    opacity: .9;
+}
+
+form .signup{
+    margin: auto 70px;
+}
+
+ 
